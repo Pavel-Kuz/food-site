@@ -61,3 +61,6 @@ var swiper = new Swiper(".home-slider", {
         close.classList.remove('active')
     })
   }
+
+
+lightGallery(document.querySelector('.gallery .gallery-container'))
