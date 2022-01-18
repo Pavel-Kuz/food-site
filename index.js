@@ -16,6 +16,18 @@ var swiper = new Swiper(".home-slider", {
     },
   });
 
+  var swiper = new Swiper(".menu-slider", {
+    grabCursor: true,
+    loop: true,
+    autoHeight: true,
+    centeredSlides: true,
+    spaceBetween: 20,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+  });
+
   var swiper = new Swiper(".food-slider", {
     grabCursor: true,
     loop: true,
