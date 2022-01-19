@@ -28,6 +28,7 @@ var swiper = new Swiper(".home-slider", {
       },
   });
 
+
   var swiper = new Swiper(".food-slider", {
     grabCursor: true,
     loop: true,
@@ -38,6 +39,30 @@ var swiper = new Swiper(".home-slider", {
         clickable: true,
       },
     breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        700: {
+          slidesPerView: 2,
+        },
+        1000: {
+          slidesPerView: 3,
+        },
+      },
+  });
+
+
+  var swiper = new Swiper(".blogs-slider", {
+    grabCursor: true,
+    loop: true,
+    autoHeight: true,
+    centeredSlides: true,
+    spaceBetween: 20,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
         0: {
           slidesPerView: 1,
         },
